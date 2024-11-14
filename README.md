@@ -1,38 +1,22 @@
-# sv
+# Screenshotter
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Rewrite of a custom screenshot uploader made for personal use. The idea with the original project was to eventually open source it, but it seemed more reasonable to rewrite it from scratch.
+## Features
 
-## Creating a project
+- File support for videos and images
+- Instant uploads
+- Dashboard to manage files
+- Beautiful showcase page for your uploads
+## Environment Variables
 
-If you're seeing this, you've probably already done this step. Congrats!
+To run this project, you will need to add the following environment variables to your .env file
 
-```bash
-# create a new project in the current directory
-npx sv create
+`DATABASE_URL`
+## License
 
-# create a new project in my-app
-npx sv create my-app
-```
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Feedback
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+If you have any feedback, please open a [Github Issue](https://github.com/)
